@@ -35,7 +35,7 @@
                 Attractions such as Taipei 101, the Palace Museum, and the Chiang Kai-shek Memorial Hall are in close
                 proximity to Taipei Tech
             </p>
-            <h2>History & Philosophy</h2>
+            <h2 id="x">History & Philosophy</h2>
             <p>
                 Established in 1912, Taipei Tech is among one of the oldest universities in Taiwan. It was <super>1<sup>st</sup></super> established during
                 the Japanese Colonial Period as the Auxiliary Industrial Institute of the Education Affairs Office of the Civil
@@ -59,5 +59,8 @@
             </p>
         </div>
     </div>
+    <a href="mailto:someone@example.com">Send email</a>
+    <a href="tel:123-456-7890">123-456-7890</a>
+    <a href="#x">go to History & Philosophy</a>
 </body>
 </html>
