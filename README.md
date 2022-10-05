@@ -5,18 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Taipei TECH</title>
     <style type="text/css">
-        div{
-            position: absolute;
-            width: 80%;
-            top: 10%;
-            left: 10%;
+        div.content {
+            overflow: auto;
+            border:3px red solid;
+            resize: both;
+            width: 70%;
         }
         super{
             font-weight: bold;
             font-style: italic;
         }
+        .green{
+            float:left;
+            width:50%;
+            background:midiumseagreen;
+        }
+        .blue{
+            float:right;
+            width:50%;
+            background:dodgerblue;
+        }
         p{
             color: blue;
+        }
+        del{
+            background-color: aqua;
+        }
+        ins{
+            background-color: brown;
         }
     </style>
 </head>
@@ -55,7 +71,7 @@
             <p>
                 Taipei Tech graduates are the top favorite employees among Taiwan’s top 1000 enterprises, as declared by Cheers
                 magazine. Taipei Tech is also renowned as top World Green University. In UI Green Metrics University Rankings,
-                Taipei Tech is ranked as the 1st Green University in Taiwan and the 6th in world in the city center catergory
+                Taipei Tech is ranked as the 1st <del>Green</del> <ins>University</ins> in Taiwan and the 6th in world in the city center catergory
             </p>
         </div>
     </div>
